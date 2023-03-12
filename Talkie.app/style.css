@@ -1,0 +1,162 @@
+body{
+    margin:0; 
+    padding:0;
+    font-family: 'Open sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.main_body{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+}
+img{
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+.talkie_logo{
+    position:fixed;
+    z-index: 4;
+    bottom:0;
+    right:0;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width:60px; 
+    height:60px; 
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0,0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talkie_logo img{
+    width: 40px;
+    height: 40px;
+}
+.talkie_background{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-right: 60px;
+    width:400px; 
+    height:550px; 
+    background: #fff;
+    border-radius: 12px;
+    z-index: 2;
+}
+.talkie_app{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-right: 60px;
+    width: 376px; 
+    height:526px; 
+    border-radius: 12px;
+    background: linear-gradient(180deg, #0038FF 40%, rgba(48, 205, 111, 0) );
+    box-shadow: 50px 10px 100px rgba(0, 0, 0,0.25);
+    padding:12px;
+    z-index: 3;
+}
+.header_box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Talki_Branch_APPNAME_{
+    font-size: 35px;
+    color: #fff;
+}
+.talkie_app .header_box .Talkie_contents{
+    width:180px; 
+    height:50px; 
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.under_port_branding_talkie{
+    position: absolute;
+    bottom: 0;
+    left:0; 
+    right:0; 
+    border-radius: 0px 0px 12px 12px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0,0.15);
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+    -webkit-user-select: none;
+    align-items: center;
+}
+.Greetings_user{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.app_content_services{
+    width:100%;
+    height:113px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.services_box{
+    width:113px; 
+    height:113px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+
+}
+.services_box:hover{
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0,0.45);
+    width: 115px;
+    height: 115px;
+
+
+}
+.floating_nchat_bakc{
+    position: absolute;
+    bottom:0; 
+    right:0;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    width:50px; 
+    height:50px;
+    background: #0038FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.app_content_notifications{
+    width:100%;
+    height:160px;
+    background: #fff; 
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 12px;
+}
